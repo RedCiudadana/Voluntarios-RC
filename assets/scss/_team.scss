@@ -1,0 +1,288 @@
+/* 23. team */
+.promotect-wrapper{
+	background-repeat: no-repeat;
+	padding: 70px 80px 75px 80px;
+	background-position: bottom;
+}
+.promotect-img{
+    & img{
+        width: 100%;
+    }
+}
+.promotect-content {
+	background: $white;
+	position: absolute;
+	right: 78px;
+	left: 78px;
+	padding: 34px 85px;
+	border-radius: 0 100px 100px 100px;
+	bottom: 30px;
+}
+.promotect-icon{
+    margin-right: 30px;
+    & i{
+    font-size: 56px;
+	color: $red;
+	line-height: 1;
+    }
+}
+.promotect-info{
+    overflow: hidden;
+    & h3{
+        font-size: 24px;
+        }
+        & p{
+            margin-bottom: 0;
+        }
+    }
+.promotect-text{
+    margin-bottom: 42px;
+    & h1{
+        font-size: 55px;
+        position: relative;
+        padding-bottom: 46px;
+        margin-bottom: 32px;
+        color:$white;
+        &::before{
+            position: absolute;
+            content: "";
+            background: #ed6e59;
+            height: 2px;
+            width: 100%;
+            bottom: 0;
+        }
+    }
+    & p{
+        color:$white;
+        margin-bottom: 0;
+    }
+}
+.promotect-link{
+    & ul{
+        & li{
+            padding-bottom: 41px;
+            &:last-child{padding-bottom: 0;}
+        }
+    }
+}
+.promotect-2-info{
+    overflow: hidden;
+    & h3{
+        color:$white;
+        font-size: 24px;
+        margin-bottom: 13px;
+    }
+    & p{
+        margin-bottom: 0;
+        color:$white;
+    }
+}
+.promotect-2-icon i {
+	font-size: 25px;
+	color: $red;
+	line-height: 65px;
+	width: 65px;
+	background: $white;
+	text-align: center;
+	border-radius: 50%;
+}
+.promotect-bg-area{
+	height: 695px;
+}
+.promotect-area {
+	margin-bottom: -454px;
+}
+.team-img {
+    position: relative; 
+    & img{
+        width: 100%;
+    }
+    &::before {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        content: "";
+        background: #222;
+        left: 0;
+        top: 0;
+        border-radius: 50%;
+        opacity: .0;
+        transition: .3s;
+     }
+}
+  .team-wrapper:hover .team-img::before {
+    opacity: .5;
+ }
+  .team-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 40%;
+    transition: .3s;
+    opacity: 0;
+    & a {
+        font-size: 14px;
+        transition: .3s;
+        margin: 0 1px;
+        height: 36px;
+        width: 36px;
+        background: $white;
+        display: inline-block;
+        text-align: center;
+        line-height: 36px;
+        border-radius: 50%;
+        color: #979797;
+            &:hover {
+            color: $white;
+            background: $red;
+            }
+        }
+ }
+  
+  .team-wrapper:hover .team-icon {
+    opacity: 1;
+    transform: translatey(-50%);
+    top:50%
+    }
+  
+  .team-text {
+    margin-top: 35px;
+    & h3{
+      margin-bottom: 9px;
+      font-size: 24px;
+    }
+    & span{
+        color: $red;
+        font-size: 14px;
+        font-weight: 500;
+        }
+    }
+
+    // volunteer
+    .volunteer-area {
+        background-size: cover;
+        background-position: center center;
+    }
+    .single-volunteer .b-button a {
+        color: $theme-color;
+    }
+    .single-volunteer .b-button a span {
+        border-color: $theme-color;
+    }   
+    .single-volunteer .section-title p {
+        margin-bottom: 34px;
+        margin-top: 43px;
+    }
+    .volunteer-wrapper {
+        background: $green;
+        padding: 80px 70px 80px 60px;
+        margin-left: 30px;
+        margin-top: -90px;
+        position: relative;
+        &::before{
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 90px 50px;
+            border-color: transparent transparent #16a358 transparent;
+            position: absolute;
+            content: '';
+            left: -50px;
+            top: 0;
+        }
+    }
+   
+    .volunteer-us-form {
+        & input{
+            border: none;
+            height: 80px;
+            margin-bottom: 10px;
+            padding: 0 30px;
+            width: 100%;
+            font-size: 18px;
+            color: $body-text-color;
+            font-weight: 600;
+            border-radius: 0;
+            font-family:$barlow;
+        }
+        & textarea{
+            border: none;
+            height: 180px;
+            margin-bottom: 10px;
+            padding: 30px;
+            width: 100%;
+            font-size: 18px;
+            color: $body-text-color;
+            font-weight: 600;
+            border-radius:0;
+            font-family:$barlow;
+        }
+    }
+    #volunteer-us-form input::-moz-placeholder {
+        font-size: 18px;
+        color: $body-text-color;
+        font-weight: 600;
+    }
+    #volunteer-us-form input::placeholder {
+        font-size: 18px;
+        color: $body-text-color;
+        font-weight: 600;
+    }
+    #volunteer-us-form textarea::-moz-placeholder {
+        font-size: 18px;
+        color: $body-text-color;
+        font-weight: 600;
+    }
+    #volunteer-us-form textarea::placeholder {
+        font-size: 18px;
+        color: $body-text-color;
+        font-weight: 600;
+    }
+    .volunteer-icon{
+        position:relative;
+    }
+    .volunteer-icon::after {
+        position: absolute;
+        content: "";
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 400;
+        display: inline-block;
+        font-size: 18px;
+        text-align: center;
+        right: 35px;
+        color: $body-text-color;
+        top: 27px;
+    }
+    .volunteer-message::after {
+        content: "\f303";
+    }
+    .volunteer-name::after {
+        content: "\f007";
+    }
+    .volunteer-email::after {
+        content: "\f2b6";
+    }
+    .volunteer-website::after {
+        content: "\f107";
+    }
+    
+    .volunteer-button button.btn {
+        padding: 26px 44px 26px 40px;
+    }
+
+    // promotect-bg
+    .promotect-bg-img {
+        background-size: cover;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 50%;
+        background-position: center center;
+    }
+    .promotect-02-wrapper {
+        background-repeat: no-repeat;
+        padding: 95px 346px 97px 66px;
+        background-position: bottom right;
+    }

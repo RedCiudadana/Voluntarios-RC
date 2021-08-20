@@ -1,0 +1,75 @@
+/* 08. counter */
+.counter-area {
+	background-size: cover;
+	background-position: center center;
+}
+.inner-counter {
+	border-bottom: 2px solid #e6e6e6;
+	padding-bottom: 34px;
+    margin-bottom:32px;
+    position: relative;
+    &::before{
+        position: absolute;
+        content: "";
+        left: 0;
+        height: 2px;
+        background: $green;
+        width: 80px;
+        bottom: -2px;
+        transition: .3s;
+    }
+}
+.counter-wrapper:hover .inner-counter::before{width: 100%;}
+.counter-icon{
+    margin-right: 25px;
+    & i{
+        font-size: 81px;
+        color:$green;
+        line-height: 1;
+        position: relative;
+	    top: 4px;
+    }
+}
+.counter-text{
+    overflow: hidden;
+    & h1{
+        font-size: 50px;
+    }
+    & span{
+        color: $body-text-color;
+        font-size: 18px;
+    }
+}
+.counter-info p {
+	margin-bottom: 0;
+}
+.red-counter .counter-icon i {
+	color: $red;
+}
+.red-counter .inner-counter::before {
+	background: $red;
+}
+.theme-counter .counter-icon i {
+	color: $theme-color;
+}
+.theme-counter .inner-counter::before {
+	background: $theme-color;
+}
+// counter-02-wrapper
+// .counter-02-wrapper
+.counter-02-wrapper .counter-icon{
+    margin-right: 0;
+    margin-bottom: 20px;
+    & i{
+        font-size: 81px;
+        color:$green;
+        line-height: 1;
+        color:$white;
+    }
+}
+.counter-02-wrapper .counter-text h1 {
+	color:$white
+}
+.counter-02-wrapper .counter-text span {
+	color:$white
+}

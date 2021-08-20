@@ -1,0 +1,41 @@
+/* 09. cta */
+.cta-area {
+	background-size: cover;
+	background-position: center center;
+}
+.cta-wrapper .section-title p {
+	font-size: 18px;
+	line-height: 30px;
+}
+.cta-icon{
+    margin-right: 9px;
+    display: inline-block;
+}
+.cta-text{ 
+        display: inline-block;
+        text-align: left;
+        overflow: hidden;
+        position: relative;
+        top: 18px;
+    & h5{
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 3px;
+        color: $white;
+    }
+    & span{
+        font-size: 18px;
+        color: $white;
+        font-weight: 500
+    }
+}
+.cta-button{display: inline-block;}
+.cta-info{display: inline-block;}
+.cta-content h1 {
+	font-size: 55px;
+	color: $white;
+	padding: 0 22px;
+	letter-spacing: -.3px;
+	line-height: 1.1;
+	margin-bottom: 53px;
+}

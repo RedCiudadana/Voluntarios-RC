@@ -1,0 +1,44 @@
+/* 14. brand */
+.brand-area{
+    position: relative;
+    &::before{ 
+            position: absolute;
+            background:  $red;
+            content: "";
+            left: 0;
+            height: 100%;
+            width: 26%;
+    }
+}
+
+
+.brand-title { 
+        position: relative;
+        margin-right: 70px;
+        height: 100%;
+        background: $red;
+        padding: 47px 23px;
+   &  h1 {
+        font-size: 45px;
+        color: $white;
+        margin-bottom: 0;
+        z-index: 9;
+        position: relative;
+        line-height: 1.1;
+    }
+    &::before{
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 25px 0 25px 30px;
+        border-color:
+        transparent transparent transparent  $red;
+        transition: .3s;
+        right: -30px;     
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+.brand-border{border-top:1px solid #ececec;}

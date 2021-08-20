@@ -1,0 +1,92 @@
+/* 22. contact */
+.contact-box-bg {
+	border: 2px solid #f1f1f1;
+	padding: 72px 0 37px;
+}
+.contact-box-img {
+	margin-bottom: 26px;
+}
+.contact-box-text p {
+	line-height: 26px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.contact-map {
+	min-height: 750px;
+}
+.contacts-us-form {
+    & input{
+        border: 1px solid #ececec;
+        height: 70px;
+        margin-bottom: 30px;
+        padding: 0 28px;
+        width: 100%;
+        font-size: 15px;
+		color: $body-text-color;
+		font-weight: 500;
+		border-radius: 5px;
+    }
+    & textarea{
+        border: 1px solid #ececec;
+        height: 150px;
+        margin-bottom: 30px;
+        padding: 28px;
+        width: 100%;
+        font-size: 15px;
+		color: $body-text-color;
+		font-weight: 500;
+		border-radius: 5px;
+    }
+}
+.contacts-us-form input:focus{border-color:$theme-color}
+.contacts-us-form textarea:focus{border-color:$theme-color}
+#contacts-us-form input::-moz-placeholder {
+	font-size: 15px;
+	color: $body-text-color;
+	font-weight: 500;
+}
+#contacts-us-form input::placeholder {
+	font-size: 15px;
+	color: $body-text-color;
+	font-weight: 500;
+}
+#contacts-us-form textarea::-moz-placeholder {
+	font-size: 15px;
+	color: $body-text-color;
+	font-weight: 500;
+}
+#contacts-us-form textarea::placeholder {
+	font-size: 15px;
+	color: $body-text-color;
+	font-weight: 500;
+}
+.contacts-icon{
+    position:relative;
+}
+.contacts-icon::after {
+	position: absolute;
+	content: "";
+	font-family: "Font Awesome 5 Pro";
+	font-weight: 700;
+	display: inline-block;
+	font-size: 16px;
+	text-align: center;
+	right: 25px;
+	color: $theme-color;
+	top: 22px;
+}
+.contactss-message::after {
+    content: "\f303";
+}
+.contactss-name::after {
+    content: "\f007";
+}
+.contactss-email::after {
+    content: "\f0e0";
+}
+.contactss-website::after {
+    content: "\f0ac";
+}
+.contacts-us-form-button .btn{
+		padding: 23px 74px 25px;
+}

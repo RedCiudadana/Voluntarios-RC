@@ -1,0 +1,199 @@
+/* 15. footer */
+.footer-icon {
+    margin-left: 30px;
+	& a {
+        color: #a0aeb8;
+        font-size: 16px;
+        display: inline-block;
+        text-align: center;
+        margin: 0 4px;
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        line-height: 50px;
+        border: 2px solid #415164;
+        border-radius: 50%;
+		&:last-child{margin-right: 0;}
+		&:hover{background:$green;color:$white;border-color:$green;}
+	}
+}
+.footer-img{
+    margin-left: 60px;
+    & a {
+        float: left;
+        margin-right: 10px;
+        &:last-child{margin-right: 0;}
+    }
+} 
+.footer-middle-area {
+	background-size: cover;
+	background-position: center center;
+}
+.footer-title {
+	font-size: 20px;
+    color: $white;
+    margin-bottom: 22px;
+}
+.footer-info{
+    & li{
+        padding-bottom: 14px;
+        &:last-child{padding-bottom: 0;}
+        & span{
+            font-size: 14px;
+            font-weight: 400;
+            color:#b8b8b8;
+        }
+        & i{
+            color:$theme-color;
+            margin-right: 6px;
+        }
+    }
+}
+.footer-link{
+    & ul{
+        & li{
+            padding-bottom: 10px;
+            position: relative;
+            padding-left: 18px;
+            transition: .3s;
+            &:last-child{padding-bottom: 0;}
+            &::before{
+                color:#a0aeb8;
+                content: "\f101";
+                font-family: "Font Awesome 5 Pro";
+                font-size: 30px;
+                position: absolute;
+                left: 0;
+                font-size: 15px;
+                transition: .3s;
+            }
+            &:hover::before{color: $green;}
+            & a{
+                color:#a0aeb8;
+                font-size: 15px;
+                font-weight: 400;
+                transition: .3s;
+            }
+            & a:hover{color:$green;border-bottom: 1px solid $green;}
+        }
+    }
+}
+.footer-wrapper {
+	overflow: hidden;
+}
+.contact-link li {
+	margin-bottom: 19px;
+	& :last-child{margin-bottom:0;}
+}
+.contact-address-icon {
+	float: left;
+	margin-right: 15px;
+	& i{
+		font-size: 15px;
+		color: $green;
+		position: relative;
+		top: 1px;
+}
+}
+.contact-address-text {
+	overflow: hidden;
+	& span{
+		font-size: 15px;
+        color: #a0aeb8;
+        font-weight: 400;
+	}
+}
+.footer-2-img {
+	margin: 0 -7px;
+}
+.footer-2-img > li {
+	float: left;
+	overflow: hidden;
+	padding: 7px;
+	width: 33.33%;
+	position: relative;
+}
+.footer-2-img a {
+    position: relative;
+    display: block;
+  }
+  .footer-2-img a img{width:100%;}
+  .footer-2-img a::before {
+    background: $green;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition:.3s;
+  }
+  .footer-bottom-area{border-top: 2px solid #394a5e;}
+  .footer-2-img a:hover::before{opacity:.6;}
+  .copyright p {
+    margin-bottom: 0;
+    & a{
+        color: $theme-color; 
+    }
+ }
+ .footer-text p {
+	margin-top: 31px;
+	margin-right: 53px;
+	color: #a0aeb8;
+	margin-bottom: 33px;
+}
+.footer-02-icon{
+    margin-left: 0;
+    & a{
+        color: #a0aeb8;
+	font-size: 16px;
+	display: inline-block;
+	text-align: center;
+	margin-left: 0;
+	-o-transition: .3s;
+	transition: .3s;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	line-height: 50px;
+	border: none;
+	border-radius: 50%;
+	background: #415164;
+	margin-right: 5px;
+    }
+}
+.footer-03-img a {
+	overflow: hidden;
+	display: inline-block;
+}
+.footer-news li {
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+.footer-news-img {
+	margin-right: 22px;
+}
+.footer-news-text{
+    overflow: hidden;
+    & h5{
+        font-size: 16px;
+        line-height: 1.4;
+        & > a{
+            color:#a0aeb8;
+            transition: .3s;
+            &:hover{color:$theme-color;}
+        }
+    }
+    & span{
+        color:$body-text-color;
+        font-size: 15px;
+        font-weight: 400;
+        & i{
+            margin-right:5px;
+        }
+    }
+}

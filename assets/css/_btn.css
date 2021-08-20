@@ -1,0 +1,54 @@
+.btn {
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 22px 45px;
+  position: relative;
+  text-transform: capitalize;
+  -webkit-transform: perspective(1px) translateZ(0px);
+  transform: perspective(1px) translateZ(0px);
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  vertical-align: middle;
+  background: #408858;
+  border-radius: 0;
+  border: none; }
+
+.btn:hover {
+  color: #fff; }
+
+.btn::before {
+  background: #fab522;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0 0;
+  -ms-transform-origin: 50% 0 0;
+  transform-origin: 50% 0 0;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  z-index: -1;
+  border-radius: 0; }
+
+.btn:hover::before {
+  -webkit-transform: scaley(1);
+  -ms-transform: scaley(1);
+  transform: scaley(1); }

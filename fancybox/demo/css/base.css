@@ -1,0 +1,26 @@
+/***************************************************************************************
+ ******* Name		: base.css
+ ******* URI		: /elements/css/base.css
+ ******* Description: A stylesheet that resets inconsistencies among browsers, providing
+ ******* 			  a "clean slate" of styles with which to work.
+ ******* Author		: Congruent Media
+ ******* Author URI	: http://www.congruentmedia.com
+ ******* Version	: 0.5
+ ***************************************************************************************/
+/* Remove margins and padding */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, li, dd, dt, img, blockquote, q, table, thead, tbody, tfoot, caption, th, tr, td, a, form, input, textarea, fieldset, pre, code {margin:0; padding:0;}
+/* Remove borders */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, li, dd, dt, img, blockquote, q, table, thead, tbody, tfoot, caption, th, tr, td, a, form, fieldset, pre, code {border: none; border-collapse: collapse; border-spacing: 0;}
+/* Reset font-related defaults */
+body, div, span, h1, h2, h3, h4, h5, h6, p, a, li, pre, code, blockquote, q, abbr, address, cite, stron, em, legend, label, input, select, textarea {font-size: 100%; vertical-align: baseline; line-height: 1;}
+/* Remove borders on images */
+a img, :link img, :visited img, :hover img, :active img, :focus img {border: none; outline: none;}
+/* Remove default bullet types */
+ul, ol, dl {list-style-type: none;} 
+/* Reset default anchor properties */
+a, a:link, a:visited, a:hover, a:focus, a:active {border: none; text-decoration: none; outline: none;}
+/* Remove any weird quote styles */
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+/* Force IE7 to use bicubic resampling, which noticeably smooths out image scaling */
+img {-ms-interpolation-mode: bicubic;}

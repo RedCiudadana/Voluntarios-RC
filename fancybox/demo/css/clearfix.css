@@ -1,0 +1,21 @@
+/***************************************************************************************
+ ******* Name		: clearfix.css
+ ******* URI		: /elements/css/clearfix.css
+ ******* Description: Styles to provide fixes for common float clearing problem
+ ******* Author		: Position Is Everything, with modifications by Congruent Media
+ ******* Author URI	: http://www.positioniseverything.net/easyclearing.html
+ ******* 			  http://www.congruentmedia.com
+ ******* Version	: 0.5
+ ***************************************************************************************/
+/* Add a blank, cleared element after floated elements*/
+.clearfix:after {content: ""; display: block; height: 0; clear: both; visibility: hidden;}
+/* IE/Mac */
+.clearfix{display: inline-table; zoom: 1;}
+/* Hide from IE/Mac, apply to IE/Win \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+
+.clear {
+	clear: both;
+	display: block;
+}

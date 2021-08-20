@@ -1,0 +1,32 @@
+// Font Family
+$barlow: 'Barlow', sans-serif;
+$rubik: 'Rubik', sans-serif;
+
+// Colors ---------------
+$white: #ffffff; 
+$black: #233f4d;
+$black-2: #111111;
+$black-soft: #374455;
+$red: #e25a44;
+$blue: #05103b;
+$blue-soft: #11202d;
+$grey:#f2f1eb;
+$grey-2:#e6e5e0;
+$green:#03b664;
+$theme-color: #ffc226;
+$body-text-color: #748188;
+$hr-border-color:#eceff8;
+
+
+// Heading Color
+$heading-color: #404040; 
+
+
+
+// Responsive Variables
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$lg : 'only screen and (min-width: 992px) and (max-width: 1200px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xs:'(max-width: 767px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
+

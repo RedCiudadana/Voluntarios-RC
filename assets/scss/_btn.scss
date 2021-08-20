@@ -1,0 +1,59 @@
+/* 07. btn */
+.btn {
+	color: $black;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1;
+	padding: 21px 44px 21px 40px;
+	position: relative;
+	text-transform: uppercase;
+	-webkit-transform: perspective(1px) translateZ(0px);
+	transform: perspective(1px) translateZ(0px);
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	vertical-align: middle;
+	background: $theme-color;
+	border-radius: 5px;
+	border: none;
+	& i{
+		font-size: 16px;
+		position: relative;
+		left:6px;
+	}
+}
+.btn:hover{color:$white;}
+.btn::before {
+  background: $red;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: scaleY(0);
+  transform-origin: 50% 0 0;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  z-index: -1;
+  border-radius:5px;
+}
+.btn:hover::before{transform: scaley(1);}
+.red-btn{
+	background: $red;
+	color:$white;
+}
+.red-btn::before{
+	background: $theme-color;
+}
+.red-btn:hover::before{transform: scaley(1);}
+.green-btn{
+	background: $green;
+	color:$white;
+}
+.green-btn::before{
+	background: $theme-color;
+}
+.green-btn:hover::before{transform: scaley(1);}

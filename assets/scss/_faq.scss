@@ -1,0 +1,89 @@
+/* 18. faq */
+.faq-wrapper {
+	margin-right: 123px;
+}
+.faq-box {
+	border: 1px solid #e7e7e7;
+	padding: 40px 40px 24px;
+}
+.faq-box-02{
+	border:none;
+	padding: 0;
+}
+.faq-box .btn-link {
+	display: block;
+	font-size: 18px;
+	border: 0;
+	text-decoration: none;
+	line-height: 1;
+	font-weight: 700;
+	color: $white;
+	padding: 21px 30px 21px 58px;
+	background: $green;
+}
+.faq-box .card-header {
+	padding: 0;
+	border-bottom: 0;
+	background: none;
+	border-radius: 0;
+}
+.faq-box .card {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: $white;
+	background-clip: border-box;
+	border: 0;
+	border-radius: 0;
+	background: none;
+	margin-bottom: 16px;
+}
+.faq-box .card-body {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 0 0 0 0;
+	border-bottom: 0;
+	padding-bottom: 19px;
+	border-top: 0;
+	padding-top: 16px;
+	margin-top: 0;
+	padding-left: 30px;
+	padding-right: 49px;
+	background: none;
+	box-shadow: 0px 7px 29.7px 0.3px rgba(234, 234, 234, 0.78);
+}
+.faq-box .card-body p {
+	margin: 0;
+}
+.faq-box .btn-link.collapsed::before {
+	content: "\f067";
+}
+.faq-box .btn-link::before {
+	content: "\f068";
+	position: absolute;
+	left: 28px;
+	top: 25px;
+	font-size: 15px;
+	font-family: "Font Awesome 5 Pro";
+	color: $white;
+}
+
+.bg_ {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 7px 29.7px 0.3px rgba(234, 234, 234, 0.78);
+    position: absolute;
+    left: 993px;
+    top: 8613px;
+    width: 480px;
+    height: 119px;
+    z-index: 244;
+  }
+  

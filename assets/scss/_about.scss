@@ -1,0 +1,37 @@
+/* 06. about */
+.about-us-icon{
+    margin-right: 16px;
+    & i{
+        font-size: 14px;
+        height: 26px;
+        width: 26px;
+        background: $red;
+        border-radius: 50%;
+        line-height: 26px;
+        color:$white;
+        text-align: center;
+    }
+}
+.inner-about {
+	overflow: hidden;
+	margin-bottom: 12px;
+}
+.about-us-text p {
+	margin-bottom: 0;
+	line-height: 26px;
+	margin-right: 30px;
+}
+.about-us-info h4 {
+	font-size: 18px;
+	margin-bottom: 0;
+	margin-top: 3px;
+}
+.about-img{
+    & img{width: 100%;}
+}
+.shape-img {
+	position: absolute;
+	right: -5%;
+	bottom: 19%;
+	z-index: -1;
+}
